@@ -1,0 +1,11 @@
+alias workspace="cd ~/Documents/workspace/"
+alias vim='mvim -v'
+alias ql='qlmanage -p 2>/dev/null'
+
+alias gpom='git push origin master'
+alias gpod='git push origin development'
+alias gac='git add --all && git commit -m $1'
+alias gpo='git push origin $1'
+alias gc='git checkout $1'
+
+alias deploy='grunt build && grunt buildcontrol:heroku'
