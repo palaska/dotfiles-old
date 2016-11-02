@@ -1,0 +1,22 @@
+[
+    { "keys": ["super+v"], "command": "paste_and_indent" },
+    { "keys": ["super+shift+v"], "command": "paste" },
+    { "keys": ["ctrl+super+up"],
+        "command": "run_multiple_commands",
+        "args": {
+          "commands": [
+            { "command": "swap_line_up", "context": "text" },
+            { "command": "reindent", "context": "text" }
+          ]
+        }
+    },
+    { "keys": ["ctrl+super+down"],
+        "command": "run_multiple_commands",
+        "args": {
+          "commands": [
+            { "command": "swap_line_down", "context": "text" },
+            { "command": "reindent", "context": "text" }
+          ]
+        }
+    }
+]

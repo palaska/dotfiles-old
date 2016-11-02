@@ -1,0 +1,25 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"AdvancedNewFile",
+		"AngularJS",
+		"Babel",
+		"CSS3",
+		"Emmet",
+		"Markdown Preview",
+		"Material Color Scheme",
+		"Material Theme",
+		"Oceanic Next Color Scheme",
+		"Package Control",
+		"Sass",
+		"Schemr",
+		"SublimeLinter",
+		"SyncedSideBar",
+		"Theme - Broceanic",
+		"Theme - Spacegray"
+	]
+}
