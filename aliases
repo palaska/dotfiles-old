@@ -7,5 +7,6 @@ alias gpod='git push origin development'
 alias gac='git add --all && git commit -m $1'
 alias gpo='git push origin $1'
 alias gc='git checkout $1'
+alias fixgitig='git rm -r --cached . && git add . && git commit -m "fixed untracked files"'
 
 alias deploy='grunt build && grunt buildcontrol:heroku'
