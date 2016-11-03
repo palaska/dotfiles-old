@@ -1,3 +1,8 @@
 mongo-hacker
 .DS_Store
 npm-debug.log
+sublime_config/User/oscrypto-ca-bundle.crt
+sublime_config/User/Package\ Control.cache
+sublime_config/User/Package\ Control.last-run
+sublime_config/User/Package\ Control.merged-ca-bundle
+sublime_config/User/Package\ Control.user-ca-bundle
