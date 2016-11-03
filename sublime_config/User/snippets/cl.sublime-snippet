@@ -2,5 +2,5 @@
   <content><![CDATA[console.log(`$1: `, $1);$0]]></content>
   <tabTrigger>cl</tabTrigger>
   <scope>text.html, source.js</scope>
-  <description>Smart console.log()</description>
+  <description>Console.log() Smart</description>
 </snippet>
