@@ -1,4 +1,5 @@
 {
+	"ensure_newline_at_eof_on_save": true,
 	"always_show_minimap_viewport": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,

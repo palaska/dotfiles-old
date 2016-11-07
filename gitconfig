@@ -16,5 +16,5 @@
 [core]
   excludesfile = ~/.gitignore
 [user]
-	name = Baris Palaska
-	email = barispalaska@gmail.com
+  name = Baris Palaska
+  email = barispalaska@gmail.com
