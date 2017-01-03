@@ -5,11 +5,14 @@
 	],
 	"installed_packages":
 	[
+		"Advanced CSV",
 		"AdvancedNewFile",
 		"AngularJS",
 		"Babel",
 		"CSS3",
+		"Dockerfile Syntax Highlighting",
 		"Emmet",
+		"Jedi - Python autocompletion",
 		"JSONLint",
 		"Markdown Preview",
 		"Material Color Scheme",

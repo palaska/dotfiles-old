@@ -1,5 +1,4 @@
 {
-	"ensure_newline_at_eof_on_save": true,
 	"always_show_minimap_viewport": false,
 	"auto_complete_commit_on_tab": true,
 	"auto_complete_with_fields": true,
@@ -8,12 +7,26 @@
 		"node_modules/",
 		"bower_components/",
 		".tmp/",
-		".sass-cache/"
+		".sass-cache/",
+		"*.jpg",
+		"*.jpeg",
+		"*.png",
+		"*.gif",
+		"*.ttf",
+		"*.tga",
+		"*.dds",
+		"*.ico",
+		"*.eot",
+		"*.pdf",
+		"*.swf",
+		"*.jar",
+		"*.zip"
 	],
 	"bold_folder_labels": true,
 	"caret_style": "phase",
 	"color_scheme": "Packages/User/SublimeLinter/Material-Theme-Darker-OceanicNext (SL).tmTheme",
 	"draw_white_space": "selection",
+	"ensure_newline_at_eof_on_save": true,
 	"fade_fold_buttons": false,
 	"find_selected_text": true,
 	"folder_exclude_patterns":
