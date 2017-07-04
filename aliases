@@ -3,13 +3,16 @@ alias vim='mvim -v'
 alias ql='qlmanage -p 2>/dev/null'
 
 alias git=hub
-alias gac='git add --all && git cz'
-# alias gac='git add --all && git commit -m $1'
+alias gac='git add --all && git commit -m $1'
 alias gpom='git push origin master'
 alias gpod='git push origin development'
 alias gpo='git push origin $1'
 alias gc='git checkout $1'
 alias fixgitig='git rm -r --cached . && git add . && git commit -m "fixed untracked files"'
+
+alias mfgac='git add --all && git cz'
+alias mfgpod='git push origin development'
+alias mfgpom='npm run release && git push --follow-tags origin master'
 
 alias deploy='grunt build && grunt buildcontrol:heroku'
 
@@ -18,3 +21,6 @@ alias dockerclear='docker rm $(docker ps -a -q) && docker rmi $(docker images -q
 alias db1='ssh -i ~/Documents/pems/ec2-mongo.pem ubuntu@ec2-52-19-215-24.eu-west-1.compute.amazonaws.com'
 alias db2='ssh -i ~/Documents/pems/ec2-mongo.pem ubuntu@ec2-52-211-132-69.eu-west-1.compute.amazonaws.com'
 alias arb1='ssh -i ~/Documents/pems/ec2-mongo.pem ubuntu@ec2-52-211-186-138.eu-west-1.compute.amazonaws.com'
+
+alias mysqld='sudo /usr/local/mysql/bin/mysqld_safe'
+alias mysql='sudo /usr/local/mysql/bin/mysql'

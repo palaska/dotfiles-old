@@ -19,7 +19,7 @@
         "paths": {
             "linux": [],
             "osx": [
-              "/usr/local/bin"
+                "/usr/local/bin"
             ],
             "windows": []
         },

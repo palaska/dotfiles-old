@@ -12,9 +12,13 @@
 		"CSS3",
 		"Dockerfile Syntax Highlighting",
 		"Emmet",
+		"GitGutter",
+		"HTMLBeautify",
+		"Javascript Beautify",
 		"Jedi - Python autocompletion",
 		"JSONLint",
 		"Markdown Preview",
+		"MarkdownLivePreview",
 		"Material Color Scheme",
 		"Material Theme",
 		"Oceanic Next Color Scheme",
@@ -26,6 +30,7 @@
 		"SublimeLinter-contrib-eslint",
 		"SyncedSideBar",
 		"Theme - Broceanic",
-		"Theme - Spacegray"
+		"Theme - Spacegray",
+		"Vuejs Complete Package"
 	]
 }
